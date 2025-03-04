@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Estudio - Portafolio de Arquitectura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SJ Estudio</h1>
+            <p>Arq. Santiago de J. Villanueva Xoca</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Diseño y Construcción Innovadora</h2>
+            <p>Transformamos tus ideas en realidad.</p>
+        </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <h2>Nuestros Proyectos</h2>
+        <div class="galeria">
+            <!-- Casa Residencial -->
+            <div class="categoria">
+                <h3>Casas Residenciales</h3>
+                <div class="imagenes-categoria">
+                    <img src="images/casa1.jpg" alt="Casa Residencial 1">
+                    <img src="images/casa2.jpg" alt="Casa Residencial 2">
+                    <img src="images/casa3.jpg" alt="Casa Residencial 3">
+                    <img src="images/casa4.jpg" alt="Casa Residencial 4">
+                </div>
+            </div>
+            <!-- Interiores -->
+            <div class="categoria">
+                <h3>Interiores</h3>
+                <div class="imagenes-categoria">
+                    <img src="images/interior1.jpg" alt="Interior 1">
+                    <img src="images/interior2.jpg" alt="Interior 2">
+                    <img src="images/interior3.jpg" alt="Interior 3">
+                    <img src="images/interior4.jpg" alt="Interior 4">
+                </div>
+            </div>
+            <!-- Naves Industriales -->
+            <div class="categoria">
+                <h3>Naves Industriales</h3>
+                <div class="imagenes-categoria">
+                    <img src="images/nave1.jpg" alt="Nave Industrial 1">
+                    <img src="images/nave2.jpg" alt="Nave Industrial 2">
+                    <img src="images/nave3.jpg" alt="Nave Industrial 3">
+                    <img src="images/nave4.jpg" alt="Nave Industrial 4">
+                </div>
+            </div>
+            <!-- Edificios -->
+            <div class="categoria">
+                <h3>Edificios</h3>
+                <div class="imagenes-categoria">
+                    <img src="images/edificio1.jpg" alt="Edificio 1">
+                    <img src="images/edificio2.jpg" alt="Edificio 2">
+                    <img src="images/edificio3.jpg" alt="Edificio 3">
+                    <img src="images/edificio4.jpg" alt="Edificio 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-lista">
+            <div class="servicio">
+                <h3>Diseño Arquitectónico</h3>
+                <p>Creación de diseños personalizados para cada proyecto.</p>
+            </div>
+            <div class="servicio">
+                <h3>Construcción</h3>
+                <p>Ejecución de obras con altos estándares de calidad.</p>
+            </div>
+            <div class="servicio">
+                <h3>Consultoría</h3>
+                <p>Asesoramiento especializado en arquitectura y construcción.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SJ Estudio. Todos los derechos reservados.</p>
+        <p>Arquitecto: Santiago de J. Villanueva Xoca</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
